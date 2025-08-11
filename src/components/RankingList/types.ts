@@ -1,6 +1,3 @@
-// RankingList 컴포넌트 관련 모든 타입들
-
-// 공통 타입들 (전역에서 가져옴)
 export type {
   Artist,
   Schedule,
@@ -10,7 +7,6 @@ export type {
 
 export const MAX_PAGES = 5;
 
-// RankingList 전용 타입들
 export type RankChange = "up" | "down" | "same" | "new";
 
 export interface FilterState {
